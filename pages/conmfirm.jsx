@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <div className="h-screen clear-both block overflow-hidden">
-        <div className="bg-gray-100 h-screen text-6xl flex items-center justify-center font-blood ">
+        <div className="bg-gray-100 h-screen text-4xl md:text-8xl flex items-center justify-center font-blood ">
           ありがとうございました。
         </div>
       </div>

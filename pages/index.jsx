@@ -11,15 +11,15 @@ export default function Home() {
         <div className="flex h-16 bg-gray-200 justify-center items-center">
           質問1/3
         </div>
-        <div className=" bg-gray-100 h-full flex justify-center items-center">
-          <form className="flex w-1/2 justify-around">
+        <div className="bg-gray-100 h-full flex justify-center items-center">
+          <form className="flex w-full justify-around flex-col md:flex-row">
             <Link href="/quesion2">
-              <div className="flex bg-red-300 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-1/3 justify-center">
+              <div className="flex bg-red-300 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-full md:w-1/3 my-10 md:my-0 justify-center">
                 テスト１
               </div>
             </Link>
             <Link href="/quesion2">
-              <div className="flex bg-red-300 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-1/3 justify-center">
+              <div className="flex bg-red-300 hover:bg-red-600 text-white font-bold py-2 px-4 rounded w-full md:w-1/3 justify-center">
                 テスト２
               </div>
             </Link>
